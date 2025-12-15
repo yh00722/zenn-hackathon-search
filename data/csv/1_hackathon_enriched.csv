@@ -1,0 +1,129 @@
+No,Project Name,URL,Author/Team,Likes,Bookmarks,Accessible,Status,Description,IsWinner,AwardName,AwardComment,IsFinalPitch
+1,HackMate,https://zenn.dev/yuno_miyako/articles/e2c02be1d73f7b,個人,108,8,True,200,対話型AIエージェントでGoogle AI Agentハッカソンの担当者を作ってみた,False,,,False
+2,PittariData - 3分で企業調査,https://zenn.dev/gepuro/articles/921ffb03bfc9c4,個人,144,56,True,200,Geminiが変える企業調査：AIエージェントで調査費用を100分の1以下に,False,,,False
+3,専門家と一緒に使うTuned AI,https://zenn.dev/kusuke/articles/6a869635709b59,個人,34,2,True,200,ちゃんと仕事でつかえる、人間を置いてきぼりにしない、専門家とAIがコラボするAIエージェント作ってみた #aiagenthackathon,False,,,False
+4,SnapmatchAI,https://zenn.dev/trapajim/articles/063bb27ea02d50,個人,5,0,True,200,構造化されていないデータの管理をAIで効率化：Snapmatch AIのご紹介,False,,,False
+5,tech-curator,https://zenn.dev/yutoo89/articles/ff6edf97a0f4a5,個人,9,2,True,200,tech-curator: AI Agent Hackathon with Google Cloud,False,,,False
+6,エンタメチャットアプリ「にーいちよん」,https://zenn.dev/yasuna/articles/ce7e4e6dde57e3,個人,25,4,True,200,エンタメチャットアプリ「にーいちよん」による課題解決とAIエージェント実装について,False,,,False
+7,PodcastGenerator,https://zenn.dev/s_makio/articles/ad4666accaafa2,チーム: 桃瀬戸ファクトリー,6,1,True,200,ポッドキャスト生成アプリ作ってみた,False,,,False
+8,BOOKA - Book App for AI price comparison agent,https://zenn.dev/ktrips/articles/9b11fd3fca1049,個人,4,1,True,200,BOOKA - 本好きのために一番お得に本が手に入るAIエージェント・アプリ、その他のブッカも自動チェックしてくれるよ！,False,,,False
+9,Listen-AI,https://zenn.dev/mrmtsntr/articles/3859ec6b61b63b,個人,11,3,True,200,Gemini 2.0 と Multimodal Live API で実現するヒアリング Voice エージェント,False,,,False
+10,WatchBot,https://zenn.dev/shinyoshiaki/articles/watchbot-gemini-webrtc,個人,4,1,True,200,自然言語で監視タスクを依頼できる「WatchBot」,False,,,False
+11,taik mate,https://zenn.dev/nozomi_iida/articles/962b27396a127f,チーム: ぷろぐらーにんぐ,3,0,True,200,流行りのAIをつかったIELTSの採点アプリ,False,,,False
+12,ReGemini - Rehabilitation Gemini project,https://zenn.dev/ktrips/articles/26b0a84dadaf54,個人,0,0,True,200,ReGemini - リハビリをGeminiで生成して、双子アバターが一緒にやってくれるWebアプリ,False,,,False
+13,BLOOMS,https://zenn.dev/kingu/articles/a36196c5c66171,個人,24,3,True,200,BLOOMS - 見つめてみよう。妊婦のあなたの日々の体調,True,🏅 Firebase賞,,True
+14,OctoThink,https://zenn.dev/hosaka313/articles/bc9768b8baaf0d,個人,3,0,True,200,OctoThink: GitHubにAIを溶け込ませるセルフホストGitHub App,False,,,False
+15,debater,https://zenn.dev/yuu7751/articles/29a12e90c279b8,個人,11,1,True,200,【debater】未来の情報提供AI！ 多角的視野の議論エージェント(AI agent Hackathon),False,,,False
+16,flutter_app_creator,https://zenn.dev/sakusin/articles/cfcc947c48d2df,個人,2,0,True,200,【提出物】flutter_app_creater,False,,,False
+17,スマブラ最適行動検証アプリ,https://zenn.dev/takuawn/articles/c58f801ca7fd77,チーム: 奈落旋風,8,0,True,200,大乱闘スマッシュブラザーズ SPECIAL最適化行動システム,False,,,False
+18,BGMoo,https://zenn.dev/rjg0gjirehbgot/articles/59d6077472c4df,個人,4,1,True,200,「映画のように、小説を楽しむ」新体験──BGMoo【AI Agent Hackathon with Google Cloud 成果物】,False,,,False
+19,Presio,https://zenn.dev/tatsuya032/articles/301dd19235efc2,チーム: Pied Piper,13,2,True,200,【AI Agent Hackathon】プレゼンテーション資料をAIで作成するサービス『Presio』,False,,,False
+20,Interview Agents,https://zenn.dev/yotaroyotaro/articles/4562bb480b415a,個人,8,0,True,200,Interview Agents – AIエージェントで、模擬面接を手間なく体験できるアプリを作りました！,False,,,False
+21,ヘモグロビンガーディアン,https://zenn.dev/toki_mwc/articles/6aa02097a4c474,個人,7,1,True,200,ヘモグロビンガーディアン：AIで貧血リスクを見える化するMVP,False,,,False
+22,AIインテリアコーディネーター,https://zenn.dev/jupitercyclone/articles/16b1d5c7f8fb67,個人,12,1,True,200,Google Cloud AI Agent Hackathon: AIインテリアコーディネーター,False,,,False
+23,eCoino,https://zenn.dev/nayus/articles/45d29a213c4213,チーム: セイゾウギョウのチカラ,55,15,True,200,想定外のズレをすぐに取り戻す！対話型AIシステム eCoino,True,🥇 最優秀賞,,True
+24,ココいく,https://zenn.dev/kikagaku/articles/ae47497f5beed9,個人,44,13,True,200,おでかけプランニング AI エージェントを作った話【ハッカソン】,True,🏅 Tech Deep Dive賞,,True
+25,Goroにゃーん,https://zenn.dev/mirainotori/articles/c37d88b37b39b0,個人,12,3,True,200,暗記特化型AIエージェント「Goroにゃーん」で暗記を効率化したい（AI agent Hackathon）,False,,,False
+26,WebTech 道場,https://zenn.dev/empelt/articles/69c480c0200f7b,チーム: トリメチルベンゼン,11,2,True,200,Google Cloud x Gemini API を用いた Web 技術学習支援アプリの開発,False,,,False
+27,アドバイス,https://zenn.dev/500ban/articles/5e31485eb775ee,チーム: さがんエンジニア,7,1,True,200,【AI Agent Hackathon 提出物】お手軽に食事のアドバイスがほしい,False,,,False
+28,memory AI,https://zenn.dev/hmdai/articles/8679d26c8b2444,個人,,,False,HTTP 403,内省促進×ラーニングの蓄積を補助するコーチングAI,False,,,False
+29,労働相談AIエージェント「まもる君」,https://zenn.dev/x_ray/articles/28368ec860982d,個人,9,2,True,200,労働相談AIエージェント「まもる君」作ってみた (AI Agent Hackathon),False,,,False
+30,elecnecta（エレクネクタ）,https://zenn.dev/ghillie/articles/0abaad648dcd91,個人,12,0,True,200,一人ひとりの関心に刺さる政策を調べて比較してくれるAIエージェント「elecnecta」の開発【AI Agent Hackathon】,False,,,False
+31,AIグループチャット,https://zenn.dev/xxkuboxx/articles/98478887b98406,個人,18,5,True,200,【AI Agent Hackathon】AIとワイワイ雑談！複数AIがあなたの悩みを解決する、新感覚グループチャットアプリ,False,,,False
+32,ArticlePlay,https://zenn.dev/tsuvic/articles/f6033ca5d2380c,個人,7,3,True,200,Google Cloud x 生成AIで実現する新しい英語学習体験アプリ,False,,,False
+33,voice-routine,https://zenn.dev/dev_commune/articles/473b01983d1cbd,個人,28,3,True,200,Todo管理を管理してほしい ～電話でTodo管理を自動化するサービス～,False,,,False
+34,「AIがすぐ寄り添う！」ファイル共有アプリ,https://zenn.dev/icch_it/articles/cc100070805da5,個人,1,1,True,200,「AIがすぐ寄り添う！」ファイル共有アプリ,False,,,False
+35,AgenTravel,https://zenn.dev/taisei_13046/articles/9ea814a6a25140,チーム: AIAT,101,21,True,200,AIエージェントと創る、新しい1人旅のカタチ,False,,,False
+36,ワラドール・トーク,https://zenn.dev/hitotori/articles/b7787ad417ad8c,チーム: 丑の刻参ラーズ,42,2,True,200,ストレスをぶつけられる藁人形、ワラドール・トークをハッカソンで制作しました【AI Agent Hackathon】,False,,,False
+37,Partner AI ～内省のススメ~,https://zenn.dev/uragasumi25/articles/aa8f6f863ebae4,個人,8,0,True,200,(AI agent Hackathon)Partner AI ～内省のススメ～,False,,,False
+38,ミ=ホ (ミーホと読みます),https://zenn.dev/hironow/articles/4f8eb43aa8deee,個人,8,1,True,200,"AI Agent Hackathon project ""ミ=ホ (advena)""",False,,,False
+39,放課後DeFAIクラブ,https://zenn.dev/nft/articles/cae4b586f2216c,チーム: 放課後DeFAIクラブ,22,7,True,200,DeFi x AIの平滑化 - ライブチャット型DeFAIプロジェクトを開発しました 【Google AIエージェントハッカソン】,False,,,False
+40,coaching-ai,https://zenn.dev/kaz_miya/articles/4cc0f588b9a121,チーム: AI Craftmen,12,1,True,200,AIコーチングアプリの開発：AI Agent Hackathon参加レポート,False,,,False
+41,fuguru,https://zenn.dev/yay1/articles/4c2615d147089c,チーム: FUGU,7,0,True,200,Geminiで資料をパーソナライズ化して効率的に読めるようにしてみた💡,False,,,False
+42,TaskTrail,https://zenn.dev/task_trail/articles/4a6a7d330f2adc,チーム: TaskTrail,11,5,True,200,目標達成支援型 AI エージェント「Task Trail」,False,,,False
+43,wondy,https://zenn.dev/nszknao/articles/zenn-ai-agent-hackathon,チーム: アクティ部,4,0,True,200,子供の疑問に答える AI エージェント「wondy」,False,,,False
+44,Web会議の円滑な進行をサポートするAIエージェント「Meetiness」,https://zenn.dev/tsmiyamoto/articles/e808497a732a5c,チーム: YAKIONIGIRIs,11,3,True,200,Web会議サポートAIエージェントつくってみた【Meetiness】,False,,,False
+45,Chat Reflection Loop,https://zenn.dev/otar/articles/5170462d8d9241,個人,3,0,True,200,Google Cloud AIエージェントハッカソン参加：Chat Reflection Loop,False,,,False
+46,WebExam,https://zenn.dev/nakajiman/articles/9fb5ed8ea2b3bf,個人,11,4,True,200,WebExam - 「webでの学習」のより深い理解のために - をリリースしました！ | AI Agent Hackathon,False,,,False
+47,RecipAI,https://zenn.dev/yui/articles/db8bf341365eee,チーム: Hello Hack,34,2,True,200,AIで実現する食品ロスゼロ ― 冷蔵庫画像から残り食材を使って自動でレシピ生成できるアプリを作った,False,,,False
+48,Menu Bite,https://zenn.dev/kanda9685/articles/69d5d02de3b724,チーム: 京大にんじんサークル,29,6,True,200,Flutter × AI で実現！海外の飲食店で使えるメニュー認識アプリの開発【AI Agent Hackathon】,True,🏅 Moonshot賞,,True
+49,AI家庭教師くん,https://zenn.dev/motsupot/articles/2ac5560d7840d5,チーム: もつなべ,12,3,True,200,【AI Agent Hackathon】Chrome拡張「AI家庭教師くん」,False,,,False
+50,interFACE,https://zenn.dev/virtuouscore/articles/08faaad1e80539,チーム: 1M1D,,,False,HTTP 403,,False,,,False
+51,Browser AI Agent,https://zenn.dev/nabettu/articles/dc4aeb4dcdb89f,個人,88,23,True,200,開いているWebページを自然言語で操作するAIエージェントを作ったよ,False,,,False
+52,飲食店メニュー多言語化アプリ,https://zenn.dev/ichihos1111/articles/160f7502032178,個人,3,0,True,200,バ先のメニューを多言語化するアプリを作った。,False,,,False
+53,第ゼロ稿,https://zenn.dev/bamb00eth/articles/20250210gcphackathon,個人,6,0,True,200,第ゼロ稿 ~AI Agent Hackathon with Google Cloud提出プロダクト~,False,,,False
+54,JanJan for kids,https://zenn.dev/yahsan2/articles/71e5ff935108e2,個人,11,0,True,200,Multimodal Live API で、AIネイティブ次世代のリアルタイム会話型の学習サービスをつくってみた！,False,,,False
+55,AI Workchain,https://zenn.dev/komlock_lab/articles/8f9702d9862dc0,チーム: Komlock lab,15,3,True,200,AI WorkChain - AI Agent × Web3で実現する自律型業務委託契約システム 【Zenn Hackathon】,False,,,False
+56,Opinion Galaxy,https://zenn.dev/edegp/articles/f9be4f4f19814f,チーム: いいっすね,6,1,True,200,【選挙予測！？】政治意見のトレンドを可視化するAIアプリケーションの開発,False,,,False
+57,Co Email,https://zenn.dev/ruki_kuri_sun/articles/e312d3b58394c2,個人,,,False,404 Not Found,,False,,,False
+58,マルチモダンAIエージェント,https://zenn.dev/shahin/articles/44843c3b757121,チーム: 駆け出しエンジニア,4,1,True,200,Google Cloud × Gemini Pro で作る次世代チャットボット：マルチモーダルAIエージェントの実装と解説,False,,,False
+59,Cloud Print AI,https://zenn.dev/mathewchan/articles/552ee3580aa8fa,チーム: CloudPrint AI,5,0,True,200,Google Cloudの アーキテクチャ図を生成するCloud Print AI,False,,,False
+60,RrntFlow,https://zenn.dev/hikesuns/articles/c1eb04b94caefa,個人,8,1,True,200,AI x Crypto による賃貸プラットフォーム構想 AI Agent Hackathon with Google Cloud,False,,,False
+61,momen.ai,https://zenn.dev/naotoitoi/articles/4b61d6257d0c95,チーム: MGS,16,2,True,200,【AI Agent Hackathon】あなたの「もめごと」を解決する、新時代のパーソナルコーチ を作ってみた,False,,,False
+62,Osiri,https://zenn.dev/sintaro/articles/e25fb64c95a4e1,個人,7,2,True,200,[個人開発]海外スタートアップ情報を手軽に知れる生成AI系プロダクトを作った話,False,,,False
+63,AIたんご帳,https://zenn.dev/yusuketagawa/articles/04724dd10456fa,個人,8,1,True,200,"自動で英語の問題を作成してくれる！""AIたんご帳""の紹介",False,,,False
+64,鮮度判定アプリFreshFinder,https://zenn.dev/cloudknowhow/articles/52d49b328750ab,チーム: TOPPA!!!,7,1,True,200,【AI Agent Hackathon with Google Cloud】AIでスーパーの買い物をスマートに！鮮度判定アプリの挑戦！,False,,,False
+65,WanderLens,https://zenn.dev/yuulin/articles/632e987d8edc73,個人,16,2,True,200,【AI Agent Hackathon】WanderLens - あなたの冒険を、もっと鮮やかに。,False,,,False
+66,Safety Eye,https://zenn.dev/acntechjp/articles/018aa891fdbdac,チーム: シェアラボAI,64,9,True,200,建設現場における服装チェックの自動化システム,False,,,False
+67,会話に溶け込むアンビエントAIエージェント,https://zenn.dev/sssssshun1122/articles/f3d80730d445be,チーム: アテモヤ,3,0,True,200,【ハッカソン開発】会話に溶け込むアンビエントAIエージェント,False,,,False
+68,WaiDDy Pocket,https://zenn.dev/waiddy/articles/376270bd1ae1b2,チーム: WaiDDy Pocket,15,1,True,200,AI Agent Hackathon : AI旅行プラン生成サービス「WaiDDy Pocket」を作ってみた,False,,,False
+69,Tascario,https://zenn.dev/erukiti/articles/2502-ai-agent-hackathon,個人,48,14,True,200,AI エージェント開発ハッカソン参加記事：Gemini 2.0 Flash で技術文書分析ツール「Tascario」を作ってみた,False,,,False
+70,SasayakiAI,https://zenn.dev/pianopia/articles/982a4223da5055,個人,1,0,True,200,【Sasayaki AI 】会議でよく分からない専門用語を初心者でも分かるように解説してくれるツールを作りました,False,,,False
+71,CAST,https://zenn.dev/sen_pt/articles/5a2a7504c2646a,チーム: Sorcerick,7,1,True,200,【AI Agent Hackathon】PDF to Video! 教材動画生成ツール『CAST』を制作しました,False,,,False
+72,AiMee,https://zenn.dev/rapirapi/articles/de88dfb7d5e4fa,チーム: ユニバック,10,3,True,200,会議進行をサポートするAIエージェント「AiMee」の紹介,False,,,False
+73,テックスキャン 😎,https://zenn.dev/mae616/articles/1847ef75cb96a3,チーム: シーラカンス,20,4,True,200,AIがあなたの個性を発見！ハッカソンで開発した分析エージェント,False,,,False
+74,The 料理 2,https://zenn.dev/yiefhouse/articles/a5477c98d75106,個人,13,2,True,200,The 料理 2.0【AI Agent Hackathon with Google Cloud】,False,,,False
+75,SYUTYU Timer,https://zenn.dev/connvoi/articles/b7cf65120fa496,個人,6,0,True,200,Pomodoro✖︎GenAI アプリ SYUTYU TIMER,False,,,False
+76,ほすさぽくん,https://zenn.dev/hatyametya_body/articles/2ddb1da924fb0a,チーム: まるさぽくん,9,1,True,200,看護師のためのエージェントアプリ「ほすさぽくん」#AI Agent Hackathon with Google Cloud,False,,,False
+77,Perfect Health'n Man,https://zenn.dev/axelasports/articles/ccc4883dc1e3c7,チーム: Perfect Health'n Man,13,4,True,200,AI エージェントは健康を夢に見るか？ for AI Agent Hackathon,False,,,False
+78,マルチ生成AIチャットボット,https://zenn.dev/dainoji7474/articles/de6d43e90b1ae3,チーム: DLab,3,0,True,200,マルチ生成AIチャットボットアプリを作ってみた,False,,,False
+79,ぴこかんむり＆温泉BBA,https://zenn.dev/voicehackerjp/articles/818266fd2510e5,チーム: 温泉BBA&ぴこかんむり,2,0,True,200,生成AIで「推し活エージェント」を作ってみた,False,,,False
+80,OSS-Rewards-Agent,https://zenn.dev/yukiki01/articles/d95f83a0b961e6,チーム: OSS-Rewards-Agent,18,7,True,200,オープンソース開発を加速する AI 報酬システム OSS-Rewards-Agent,False,,,False
+81,走ルンRUN,https://zenn.dev/tacos/articles/1fc6909c01cbe4,個人,6,1,True,200,「ランニングルート自動生成アプリ ～走る前の面倒なルート設定を一瞬で解決～」,False,,,False
+82,『AI就活エージェント』,https://zenn.dev/manase/articles/5325cb8966fe7c,チーム: ぴゅぴゅまる🐱,7,2,True,200,【生成AI】就活・転職のサポートをしてくれるAI AgentをGoogle✖️Zennハッカソンで開発しました🌟,False,,,False
+83,Prompt QR,https://zenn.dev/ud_inc/articles/ca7dfbac605e22,個人,8,3,True,200,【Prompt QR】 低コストで局所的な活用ができるAR/AIグラス向けカスタムAIエージェント,False,,,False
+84,議知録（gichiroku),https://zenn.dev/osakanafuta/articles/e8b047cb243709,チーム: おさかなふた,13,0,True,200,議知録（gichiroku）：会議の振り返りを支援するWebアプリ,False,,,False
+85,LegalPilot,https://zenn.dev/aobaiwaki/articles/fe8225526034d7,個人,6,2,True,200,LegalPilot: Vertex AI×BigQueryによるRAG構築 [AI Agent Hackathon],False,,,False
+86,Manabiya AI,https://zenn.dev/coco9122/articles/manabiya-ai-coco9122,チーム: Manabiya AI,36,7,True,200,ManabiyaAI：新人教師でも、ベテランでも、その先の学び舎へ。​​​​​​​​【AI Agent Hackathon】,True,🥈 2位,,True
+87,LLM Fixer,https://zenn.dev/kaiba/articles/ccbe756efe4f68,個人,8,0,True,200,LLM Fixerの紹介: AI Agent Hackathon with Google Cloud,False,,,False
+88,チャレンジコンパス,https://zenn.dev/nabesan1114/articles/87a079ed237aa6,個人,6,0,True,200,【AI Agent Hackathon】日々の仕事をやりがいのあるものにするサービス「チャレンジコンパス」,False,,,False
+89,ClearSky,https://zenn.dev/tunburo/articles/clearsky-article,チーム: ツナ缶サラダ,3,1,True,200,Firebaseを味わい尽くせ！ 限界突破ハッカソン！！,False,,,False
+90,「Show Your AI」 10年後のあなたとチャットができる,https://zenn.dev/bidire_ai/articles/b551feb3461089,チーム: BIDIRE,3,1,True,200,「Show Your AI」 10年後のあなたとチャットができる,False,,,False
+91,AI Vtuber ディベート,https://zenn.dev/hirekatsu0523/articles/8b0583ba9a01f6,チーム: ONIXION,39,16,True,200,Chromeを使いながらディベートするマルチエージェントAI Tuberシステムを作ってみた,False,,,False
+92,お天気おかん,https://zenn.dev/caen/articles/c202f26e2cbddc,個人,33,8,True,200,【個人開発】お母さんみたいに天気予報を教えてくれるアプリをつくりました【with AIエージェント】,False,,,False
+93,今日もただいま,https://zenn.dev/sola1216/articles/52ed91fed89caa,チーム: チームSAL,2,0,True,200,AI Agent Hackathon with Google Cloud提出,False,,,False
+94,旅行計画お助けマン,https://zenn.dev/y_aki/articles/30fe8ddaf79e90,個人,14,0,True,200,会話内容で旅行計画をまとめてくれる『旅行計画お助けマン』を作りました【AI Agent Hackathon】,False,,,False
+95,# はっしゅたぐ工房,https://zenn.dev/michan74/articles/b442ee4115c7e5,個人,7,1,True,200,# はっしゅたぐ工房を作りました 【AI Agent Hackathon with Google Cloud】,False,,,False
+96,深夜のテックバー ～匿名の技術者コミュニティ開発の挑戦～,https://zenn.dev/marcosan/articles/188e5f13464171,個人,6,1,True,200,深夜のテックバー ～匿名の技術者コミュニティ開発の挑戦～ (AI Agent Hackathon with Google Cloud),False,,,False
+97,AI Vision Quest,https://zenn.dev/yamamomo/articles/ad77e0899b282c,チーム: AI モノリス・オデッセイ,6,0,True,200,AI Vision Quest　〜ディープフェイクを見抜く審美眼〜,False,,,False
+98,AI Agent Hackathon with Google Cloud,https://zenn.dev/takayamasashi/articles/b00034f5d5e304,個人,3,1,True,200,AIエージェント Wikiだるま　第18話,False,,,False
+99,法令お答えチャットくん,https://zenn.dev/yusa_san/articles/732a04cacabece,チーム: yusa-san team,7,0,True,200,非エンジニアがAIエージェントハッカソンに参加してみた話,False,,,False
+100,レシート仕分けサービス「レシートぽん！」,https://zenn.dev/5hige99/articles/58212a00887146,チーム: うちなんちゅ,6,2,True,200,AIがレシート仕分けしてくれるサービスを作ってみた,False,,,False
+101,Travel.Hub,https://zenn.dev/water3/articles/5b627d7424d7be,チーム: 7号館house,7,1,True,200,AIが旅行計画のお手伝い！ ~AI Agent Hackathon ~,False,,,False
+102,MiMi,https://zenn.dev/dotback/articles/4bb70fa759d7ef,チーム: ReRe,23,5,True,200,Gemini AIを活用して認知症予防・改善アプリを開発【AI Agent Hackathon with Google Cloud】,False,,,False
+103,Flare,https://zenn.dev/flare_dev/articles/385d87dae6e0a9,チーム: Flare,63,14,True,200,"""Flare"" -新時代のモバイルアプリ開発AI Agent-",True,🏅 Flutter + Firebase賞,,True
+104,医師のための論文紹介Podcast,https://zenn.dev/pipon_tech_blog/articles/ee78f920bc8d6e,チーム: pipon,2,1,True,200,医師の学びをAIがアップデート - PubMed論文を3分動画に自動変換,False,,,False
+105,Geminiでタスク追加,https://zenn.dev/wonyx/articles/80d390ffef5f39,個人,6,0,True,200,AI Agent Hackathon with Google Cloud 参加記事：Geminiでタスク追加,False,,,False
+106,TRIP-LAN：生成AIで実現する次世代の旅行プラン作成アプリ,https://zenn.dev/fooqoo/articles/fa02502450bf7f,個人,11,2,True,200,[AI Agent Hackathon with Google] TRIP-LAN：生成AIで実現する次世代の旅行プラン作成アプリ,False,,,False
+107,HUNGOUR（ハングル）,https://zenn.dev/reerishun/articles/32bf88b96536fd,個人,4,0,True,200,【ハッカソン記事】今すぐ入れる飲食店を自動予約してくれるサービスを作ってみた。,False,,,False
+108,生成AIとおじいちゃんの見守り - 次世代介護システムの開発,https://zenn.dev/tki256/articles/782061fa95aa51,チーム: Husen,9,3,True,200,生成AIとおじいちゃんの見守り - 次世代介護システムの開発[AI Agent Hackathon with Google Cloud],False,,,False
+109,newln,https://zenn.dev/yomek33/articles/a8b43d65627dc7,個人,,,False,HTTP 403,,False,,,False
+110,絵本の読み聞かせアプリ「AI StoryTeller」,https://zenn.dev/knmknm/articles/4d08429c8e6864,チーム: AI StoryTeller,26,2,True,200,絵本の読み聞かせアプリ「AI StoryTeller」による課題解決と実装方法,True,🏅 Flutter賞,,True
+111,社内のぞき見新聞 ～The Internal Times～,https://zenn.dev/kaitat1231/articles/afce2c2202fa2b,チーム: シャリ無しわさび増し,47,15,True,200,社内のぞき見新聞 ～The Internal Times～【AI Agent Hackathon with Google Cloud】,True,🥉 3位,,True
+112,納得した買い物を瞬時に実現する比較特化型AI Agent「Smart Choice」,https://zenn.dev/ms5/articles/70d6f1b2405fa9,個人,8,0,True,200,[AI Agent Hackathon] 納得した買い物を瞬時に実現する比較特化型AI Agent「Smart Choice」,False,,,False
+113,AI Record,https://zenn.dev/ken5/articles/d35f524f107fe4,個人,2,0,True,200,AIが自動で日記をつけてくれるサービス,False,,,False
+114,エージェントネイティブな漫画エディタ,https://zenn.dev/scich/articles/c18e181328eba9,個人,5,0,True,200,【OSS】 エージェントネイティブなマンガ創作エディタ,False,,,False
+115,Mail Magazine Manager,https://zenn.dev/k_sasaking/articles/d56487c4c34b1e,個人,3,1,True,200,Gmailに来る不要なメルマガを一掃するAIエージェント,False,,,False
+116,AI漫才,https://zenn.dev/oreoreo/articles/51bfca8a2cdffd,チーム: チーム一橋,2,0,True,200,AI漫才師 - AIによる漫才スクリプト生成システム,False,,,False
+117,AILangSutdy,https://zenn.dev/yoneapp/articles/f020a05df2b4a6,個人,1,0,True,200,AI多言語学習ツール,False,,,False
+118,「この肉どの部位？」を無くす焼き肉AI,https://zenn.dev/kuredev/articles/b9df153342c5eb,個人,3,0,True,200,焼き肉で「この肉どの部位？」を無くす焼き肉AI作ってみた。【Flutter/Vertex AI】,False,,,False
+119,AIバスロケくん,https://zenn.dev/karamiso/articles/c1daecc46712a8,個人,2,0,True,200,「AIバスロケくん」- マルチモーダルAIでカメラ画像から簡単にバスロケ！ -,False,,,False
+120,LazySpotFinder: AIがあなたの「めんどくさい」を解決する、新しい場所探しのカタチ,https://zenn.dev/yusukec/articles/0403fdf72aa9dd,個人,4,0,True,200,「今日どこ行く？」をAIに丸投げ！スポット検索のAIエージェント作ってみた【Gemini × Flutter】,False,,,False
+121,agentClassroom,https://zenn.dev/tetty2525/articles/04f8478a303b32,チーム: nishibori-hikawa,1,0,True,200,AIエージェント教室：国際ニュースを多視点から探究,False,,,False
+122,DOODLE SCOPE,https://zenn.dev/articles/ace4b23009e333/,チーム: ArtisanAlly,,,False,404 Not Found,,False,,,False
+123,Docgent,https://zenn.dev/kecy/articles/84509c63e76218,個人,106,35,True,200,Slackの会話からドキュメントを育てるGo製AIエージェント「Docgent」を開発しました,False,,,False
+124,Corggle,https://zenn.dev/pluto0004/articles/40b511b74ecbf4,チーム: iroiro,6,0,True,200,次世代コミュニケーションパートナー AI Corggle,False,,,False
+125,食品添加物解析アプリ,https://zenn.dev/senbei139/articles/b78ae9d4a68340,チーム: of,10,0,True,200,食品添加物解析アプリ（AI Agent Hackathon with Google Cloud）,False,,,False
+126,GenRPG,https://zenn.dev/atworks_np/articles/bb4e4fc79be314,個人,14,0,True,200,GenRPG - 究極のRPGを求めて - 【AI Agent Hackathon】,False,,,False
+127,名刺管理AIエージェント,https://zenn.dev/liam/articles/13d00e3fd4b8f5,チーム: 反天空後で世界を救えませんか？,6,1,True,200,埋もれた金鉱を見逃すな！展示会の名刺管理AIエージェント,False,,,False
+128,アイデアの会議室,https://zenn.dev/yersini_pestis/articles/3bda0515380265,個人,2,0,True,200,AIがアイデアを育てる！GeminiとClaudeによる自動ブレインストーミングアプリの開発,False,,,False

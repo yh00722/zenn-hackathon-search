@@ -1,0 +1,159 @@
+No,Project Name,URL,Author/Team,Likes,Bookmarks,Accessible,Status,Description,IsWinner,AwardName,AwardComment,IsFinalPitch
+1,ベビタ（BabyTouch）,https://zenn.dev/mikkikimasutaro/articles/aae52e44fb2d12,個人,2,0,True,200,ベビタ: タッチで遊ぶ、赤ちゃん向けフィードバックアプリの開発記録,False,,,False
+2,化粧品分析AIエージェント、AI Skin Compassの開発,https://zenn.dev/panchorange/articles/b99d5fb95bd103,チーム: ひがぱん,2,0,True,200,【Flutter×GCP】化粧品成分分析 モバイルアプリ「AI Skin Compass」,False,,,False
+3,Linux Reader - Linux本家コードをAIで読もうとする挑戦 -,https://zenn.dev/coffeecupjp/articles/09eaa20edcf2c0,個人,8,1,True,200,Linux Reader - Linux本家コードをAIで読もうとする挑戦 -,False,,,False
+4,AIによるリアルタイム実況テキスト付きブロック崩しゲーム,https://zenn.dev/megane_otoko/articles/93_ai_agent_hackathon_2nd,個人,2,0,True,200,第2回 AI Agent Hackathon with Google Cloud 参加,False,,,False
+5,todo-chronicle,https://zenn.dev/sochi/articles/c28d78c190da05,個人,4,0,True,200,タスク完了で物語が進む！Gemini APIで作る異世界ファンタジーToDoアプリ 〜タスクをこなして、世界を救え〜,False,,,False
+6,投資パートナー AIエージェント「Investallia」,https://zenn.dev/to418/articles/f34cf8bb397f59,個人,4,2,True,200,若年層向け投資パートナー AIエージェント「Investallia」,False,,,False
+7,菜園の匠,https://zenn.dev/myapp/articles/fdf58e5529a43f,チーム: Developers_Miya,3,0,True,200,家庭菜園AIアプリ「菜園の匠」【AI Agent Hackathon】,False,,,False
+8,紙カルテ電子化AIエージェントシステム,https://zenn.dev/fumi_mizu/articles/505cbd14678388,個人,5,3,True,200,紙カルテ電子化AIエージェントシステム,False,,,False
+9,地図の中の哲学者,https://zenn.dev/vel3633/articles/b06e8ded842ea7,チーム: 社会人2年目,5,3,True,200,AIは「地方の過疎化」を救えるか？ 地域の物語を紡ぐAIエージェント「地図の中の哲学者」の挑戦,False,,,False
+10,AIry Recipe,https://zenn.dev/hal1986/articles/20250630-hackathon,個人,13,1,True,200,料理体験をアップデートするレシピアプリ「AIry Recipe」の開発,True,🏅 Gemma賞,当プロジェクトは、料理シーンにおける具体的な課題を、最新AI技術で見事に解決している優れたアプリです。多くの人が経験する「調理中で手が離せない」というストレスに対し、「声だけですべてを操作できる」という体験は、最も直接的でスマートな解決策と言えるでしょう。特に、Gemma 3nと音声認識機能の活用方法が素晴らしかったです。単に「次の工程へ」といったコマンド認識だけでなく、「この食材の代わりは？」といった料理中の突発的な疑問にも即座に対話形式で回答できる点を高く評価いたします。,True
+11,パーソナル日本語学習チューターAI「NihonGo!」,https://zenn.dev/kenta1114/articles/738c3212b345e2,個人,1,0,True,200,パーソナル日本語学習チューターAI「NihonGo!」,False,,,False
+12,TriviaGuideMap,https://zenn.dev/tatetate/articles/a16d5dcb495bdf,個人,,,False,HTTP 403,TriviaGuideMap,False,,,False
+13,PPP - Personalized Podcast Platfrom -,https://zenn.dev/soundtricker/articles/147c8e6d99f015,個人,12,2,True,200,🎙️ AI ポッドキャスト生成プラットフォーム  PPP,False,,,False
+14,Gemiyou,https://zenn.dev/yukilab/articles/f281ec36462357,個人,7,2,True,200,AIが人間にタスクを依頼する逆転発想アプリ「Gemiyou」の開発記録,False,,,False
+15,HabitLink,https://zenn.dev/tsukasajapan/articles/acf4ff56c0a68e,チーム: 地球オールスターズ,7,2,True,200,指導者と生徒を結ぶ、習慣化AIエージェント「HabitLink」,False,,,False
+16,ペット問診・診断サイト,https://zenn.dev/pd98/articles/df961bfb03b276,個人,2,0,True,200,AIペット診断「Petnosis」プロジェクト,False,,,False
+17,よみあげくん,https://zenn.dev/kotoriyama/articles/cdf88b2f3e745c,個人,6,0,True,200,会議資料が読みにくい？AIエージェント×Genkitで1日開発した読み上げアプリの話,False,,,False
+18,らくらく日記,https://zenn.dev/yamadamadamada/articles/2037f9bad4775c,個人,5,0,True,200,めんどくさがり屋のための日記サービス 【らくらく日記】,False,,,False
+19,PersonalCast,https://zenn.dev/henteko/articles/523c1cb87b5a27,個人,5,1,True,200,PersonalCast - 日々のメモからAIパーソナリティが番組を生成！,False,,,False
+20,zenith-assistant,https://zenn.dev/k__kanke/articles/4a9d2d9569aba4,個人,4,1,True,200,自然言語チャットからGoogleカレンダーの空き時間検索・予定登録ができるAIエージェント構築,False,,,False
+21,Solilo,https://zenn.dev/numekudi/articles/29e22e8806b0c5,個人,8,1,True,200,AIと心療内科シミュレーション！「うまく伝えられない」を解消する一人用タイムライン型体調メモ 第2回 AI Agent Hackathon,False,,,False
+22,Whisky AI Bartender,https://zenn.dev/yu5uke1024/articles/03adf04313af62,チーム: Nara Family,24,1,True,200,Multi AgentとGoogle Cloudで変革する、パーソナルなウイスキー体験【第2回AI Agent Hackathon】,False,,,False
+23,ワンダーストーリー,https://zenn.dev/taku_sid/articles/83ecad2d420ebb,チーム: r488it,6,0,True,200,うさぎでもわかる🐰すべての子どもに質の高い教育を AIエージェント「ワンダーストーリー」の紹介,False,,,False
+24,AniMaker AIアニメイカー,https://zenn.dev/ktrips/articles/e1d720a439d7cb,個人,3,1,True,200,AniMaker AIアニメイカー,False,,,False
+25,Sofia,https://zenn.dev/fkky/articles/e12b7deaf028d6,個人,10,2,True,200,知的作業の見えない仕事を見える化するAIシステム【Sofia】,False,,,False
+26,Infinite Intelligence: 知性の最強チームを創る,https://zenn.dev/nujatigus/articles/be134aef2bc5d2,個人,,,False,HTTP 403,Infinite Intelligence: 知性の最強チームを創る,False,,,False
+27,Growth Buddy - 従業員と伴走するAIエージェントシステム,https://zenn.dev/zazen_inu/articles/bb3e9ec90c256d,チーム: manabi-dx-crew,18,5,True,200,Growth Buddy 従業員と伴走するAIエージェントシステム,False,,,False
+28,DbRheo（ディービー・レオ）,https://zenn.dev/acntechjp/articles/9264063c34fc3c,個人,13,2,True,200,DbRheo：自然言語だけでAI Agentがデータベース操作完結【AI Agent Hackathon】,False,,,False
+29,Swipelingo,https://zenn.dev/ioridev/articles/d1f43cf13a7e6a,個人,5,1,True,200,YouTube動画を活用したAI補助語学学習アプリの開発,False,,,False
+30,AI人狼,https://zenn.dev/shoko3168/articles/cddc59a7adafed,個人,11,1,True,200,人狼参加者が足りない夜に、AIを,False,,,False
+31,"餃輪 (GeoCycle) — ""餃⼦ × サイクリング"" で Smart City Smart Body を実現する",https://zenn.dev/kc7525/articles/e1d8129cbfb275,チーム: Team Land Lady,5,2,True,200,"餃輪 (GeoCycle) — “餃⼦ × サイクリング” で Smart City, Smart Body を実現する",False,,,False
+32,Michishiru,https://zenn.dev/wooloo/articles/f577f9a978adc5,個人,3,1,True,200,Michishiru - 災害時にあなたを「導く」AI防災支援,False,,,False
+33,予定が含まれたSlackの投稿にスタンプを押すだけでGoogleカレンダーに登録できるURLを生成してくれるBot,https://zenn.dev/matsu/articles/cc0e726c848d45,個人,4,1,True,200,予定が含まれたSlackの投稿に、スタンプを押すだけでGoogleカレンダーに登録できるURLを生成してくれるBot,False,,,False
+34,Tech Post Cast,https://zenn.dev/sumihiro3/articles/66643cce7dcb60,個人,8,1,True,200,Tech Post Cast — AIが届ける、あなただけのテックラジオ番組,False,,,False
+35,KnockAI,https://zenn.dev/enostech/articles/8a4a3f2589afd7,チーム: KnockAI,12,3,True,200,"KnockAI: 職人の見積もり""暗黙知""を継承するAIエージェント - Google Cloudで実現する製造業DX",True,🏅 Moonshot賞,日本の製造業が直面する技能継承という課題に対し、「暗黙知」をAIで継承するという着眼点が素晴らしいです。現場の方へのヒアリングを基に見積もりプロセスを具体的なステップへ分解できているため、AIの使い所と人間との協業が明確になっており、実践的なアプローチだと高く評価できます。Vertex AI等を活用した実装力も見事ですが、特に継続開発を見据えたアーキテクチャは特筆すべき点です。Firestoreを介したADKとの協調は、シンプルながら様々なケースで応用可能な構成だと感じました。今後は、実際に現場の方が触ってみたフィードバックを得られると、さらに価値あるものになると感じます。このプラットフォームが日本の様々な産業で「暗黙知の形式知化」を推進し、持続可能な技能継承の新しいモデルとなることを期待しています。技術の力で伝統を未来につなぐ、まさにMoonshot賞にふさわしいプロジェクトです。,True
+36,Maisoku AI,https://zenn.dev/aisumairu/articles/c165c83e15d19d,個人,6,1,True,200,【AI Agent Hackathon】Maisoku AI - AI技術で住まい選びサポート,False,,,False
+37,Lecturia,https://zenn.dev/neka_nat/articles/4930d5d90c7d38,個人,24,5,True,200,"""学び方から自分流"" - AIで講義を創る勉強アプリを作ったよ[第2回 AI Agent Hackathon]",False,,,False
+38,Infumatch,https://zenn.dev/hmdai/articles/60975c0a81485b,個人,,,False,HTTP 403,インフルエンサーとのタイアップ交渉をAIエージェントが自動化〜Infomatch〜,False,,,False
+39,WhiteboardLM,https://zenn.dev/gerusuraimu/articles/2b7b21f646d857,個人,,,False,HTTP 403,Vertex AIで構築したRAGをDiscordやSlackから利用する,False,,,False
+40,「あついよ」熱中症みまもりAI,https://zenn.dev/atsuiyo_aiagent/articles/e6b97302b79a1a,チーム: Teamあついよ＠AI木曜会,23,9,True,200,-言えない暑さを、見える声に-「あついよ」熱中症みまもりAI,False,,,False
+41,Smart Check Sheet,https://zenn.dev/sotky/articles/13c7b06d53b558,個人,6,1,True,200,Smart Check Sheet -チェックシートで現場の勘をナレッジに-【AI Agent Hackathon】,False,,,False
+42,気分屋の芝日記,https://zenn.dev/matcha22/articles/3a23140ec1ed38,個人,6,2,True,200,音声入力 × AI感情分析 × カラーパレット日記アプリ【第2回 AI Agent Hackathon with Google Cloud】,False,,,False
+43,WellFin,https://zenn.dev/500ban/articles/2233b7870362cf,個人,5,1,True,200,【第2回 AI Agent Hackathon 提出物】習慣形成が苦手です,False,,,False
+44,YouTube × Gemma 学習支援アプリ,https://zenn.dev/yuki731/articles/2349ad4d828a77,チーム: Youdemy,6,1,True,200,YouTube × Gemma 学習支援アプリ (第2回 AI Agent Hackathon with Google Cloud),False,,,False
+45,AIary,https://zenn.dev/tamaloon/articles/7d70da09a7a0a4,チーム: AIary,6,1,True,200,AIとつくる日記 「AIary」,False,,,False
+46,KnowledgePaper,https://zenn.dev/asap/articles/65740c3b110cc8,個人,69,22,True,200,あなたの論文調査ライフに彩りを！【KnowledgePaper】,False,,,False
+47,nanimonjya,https://zenn.dev/toripy/articles/29dfdbd787c866,個人,6,3,True,200,AIエージェントとFirestoreで実現する、新しい「ナンジャモンジャ風」オンライン対戦ゲーム　nanimonjya,False,,,False
+48,SUM-AI Navigator,https://zenn.dev/kdoai/articles/3f2a890966fd9f,個人,,,False,HTTP 403,地方創生の新たな希望：AI駆動型移住支援プラットフォーム「SUM-AI Navigator」で見つける最適な暮らし,False,,,False
+49,防災コンシェルジュ - Sonael(ソナエル),https://zenn.dev/aya_u/articles/3de0b28619b486,個人,8,1,True,200,ファクト × しんぱいで動く防災コンシェルジュ - Sonael(ソナエル) | 第2回 AI Agent Hackathonに挑戦！,False,,,False
+50,"MimiTalk — ""よく聴くウサギ"" が見守る 認知症リスク早期検知エージェント",https://zenn.dev/kc7525/articles/aff930654102ea,チーム: En-Dolphin,8,3,True,200,MimiTalk — “よく聴くウサギ” が見守る 認知症リスク早期検知エージェント,False,,,False
+51,マインドソート,https://zenn.dev/yatayata/articles/bd81528c760b1e,チーム: 寝ても覚めてもご自愛,6,0,True,200,スワイプするだけで思考を整理 「マインドソート」【AI Agent Hackathon】,False,,,False
+52,WorkLoop,https://zenn.dev/fujidd/articles/2cd806452fcce1,チーム: チームDD改,2,0,True,200,【WorkLoop】戦略から実行、そして成長へ。WorkLoopで仕事を設計せよ。,False,,,False
+53,ココロン,https://zenn.dev/mugi007/articles/6e9427f2ba32bb,個人,3,0,True,200,すれ違う「大丈夫」。精神疾患を持つ人と支える人のためのアプリ『ココロン』,False,,,False
+54,ミライフ,https://zenn.dev/yui/articles/b4b70159111b0c,チーム: Hello Hack,10,0,True,200,準備をもっとスマートに！未来に寄り添うAIエージェント：「ミライフ」,False,,,False
+55,Session MUSE,https://zenn.dev/xxkuboxx/articles/51c82805edac7b,チーム: Session MUSE,14,0,True,200,もう、曲作りで孤独じゃない。AIパートナー「Session MUSE」と創る音楽【AI Agent Hackathon】,False,,,False
+56,AI Climbing Tokyo,https://zenn.dev/climbing_hassan/articles/92e539d7713160,個人,9,1,True,200,AI Climbing Tokyo — ボルダリング落下解析で次トライのヒントを生成【第2回 AI Agent Hackathon】,False,,,False
+57,自分エージェント,https://zenn.dev/uragasumi25/articles/260403a5714768,個人,2,1,True,200,(第2回AI Agent Hakkathon) 自分エージェント,False,,,False
+58,CraftMate AI,https://zenn.dev/sagara22/articles/535c03c31416e7,チーム: CraftMate AI,13,7,True,200,CraftMate AI ― DIYの設計をサポートするAI,True,🏅 Flutter賞,「CraftMate AI」はDIY初心者に寄り添ったアプリです。家具部品の色分け、3Dモデル表示・回転、必要な工具の提案など「これだけの機能があれば、私にもDIYで家具が作れそう...！」と思える作品でした。3Dモデルの部品ごとのカラーが、部品一覧のカラーと一致している点は、全体像の把握と各部品の役割を直感的に把握することに役立ちます。工程ごとの3Dモデルが見られる点も親切です。手戻りが発生しづらい体験ではないかと思います。この度は「CraftMate AI」にFlutter賞を進呈します。Webの3D技術をFlutterアプリケーションの中に組み込み、このアプリケーションを完成させた点を評価致しました。Flutter GPUなどの技術はありながらも、生成AIでモデルデータが出力可能な方式を選択した合理的な判断であり、こういったWeb技術との融合もFlutterの可能性の一つであると感じます。,True
+59,AgriLens,https://zenn.dev/service/articles/b1095e5acb32c9,個人,6,2,True,200,衛星データを使って農地AIエージェントを作ってみた【AI Agent Hackathon応募作品】,False,,,False
+60,クックマネージャー,https://zenn.dev/anchan8/articles/25eddf1fa719b1,チーム: セル,13,2,True,200,"【AI Agent Hackathon】""ごはん何作ろう問題""にAIが壁打ち！AI×LINE×YouTubeで解決するボット開発",False,,,False
+61,おうちのAI相談室,https://zenn.dev/mihyoshida/articles/28711d4a203800,チーム: ABの遺伝子,4,2,True,200,"おうちのAI相談室：相続と空き家の""感情の壁""を対話型AIエージェントで乗り越える",False,,,False
+62,CEMENT,https://zenn.dev/dmorita/articles/829de6120aab33,チーム: AL2,8,1,True,200,【AI Agentハッカソン】読んだフリで終わらせない。プレゼンさせて記憶を固める鬼コーチAI「CEMENT」,False,,,False
+63,飲食店のシフト管理負担をゼロへ！シフト管理AI〜シフ長〜,https://zenn.dev/akito0818/articles/3e3f4694fc1846,チーム: シフ長,18,5,True,200,飲食店のシフト管理負担をゼロへ！シフト管理AI〜シフ長〜【第2回 AI Agent Hackathon with Google Cloud】,False,,,False
+64,Discordコミュニティ運営AIエージェント「コミュニティ羅針にゃん」,https://zenn.dev/ayyh_18/articles/e2695d72f3c2a6,チーム: コミュニティプロメンバーズ,10,2,True,200,Discordコミュニティ運営AIエージェント「コミュニティ羅針にゃん」,False,,,False
+65,絵文字窓口,https://zenn.dev/team_9z9/articles/7f356d0df0417b,チーム: Chronos,5,0,True,200,絵文字窓口 -絵文字で暮らしサポート- 【第2回 AI Agent Hackathon with Google Cloud】,False,,,False
+66,RoomBot,https://zenn.dev/td_maru/articles/50b299b23f8edb,チーム: VIRMUS,5,0,True,200,🤖 RoomBot-会議室向けAIエージェントシステム AI Agent Hackathon with Google Cloud,False,,,False
+67,性格診断シューティングゲーム「深淵の射撃場」,https://zenn.dev/beavers_hive/articles/2ae330de0a62b6,個人,15,12,True,200,GeminiCLIとMCPで、性格診断シューティングゲーム作ってみた【MCP✖️BLE】,False,,,False
+68,AIを活用した住宅ミスマッチ防止アプリ「次の住処」,https://zenn.dev/wakioh/articles/befe49f63e5bf6,チーム: sudo make coffee,7,1,True,200,次の住処　〜住宅ミスマッチ防止bot〜【AI Agent Hackathon with Google Cloud】,False,,,False
+69,GeminiとGoogleサービスで作るお祭り検索＆訪問記録アプリ,https://zenn.dev/chattso_gpt/articles/bbfeccaf9c71cf,チーム: ちゃそっこを調教する会 - AI Agent Hackathon編-,1,0,True,200,GeminiとGoogleサービスで作る、お祭り検索＆訪問記録アプリ開発記,False,,,False
+70,norn,https://zenn.dev/ryoga_88/articles/29be2860250abe,チーム: norn,4,0,True,200,面倒な旅行計画、さようなら。複数人のワガママを全て叶えるAI旅行プランナー,False,,,False
+71,Polyphra,https://zenn.dev/momocraft/articles/899cd2f2541d41,チーム: Polyphra開発者たち,9,3,True,200,新感覚英語学習ツール「Polyphra」,False,,,False
+72,Skill Map,https://zenn.dev/yuk0104/articles/6b6b10233ead6b,チーム: DCS,2,0,True,200,VertexAIを活用したスキルマップ作成ツール,False,,,False
+73,Manga Maker,https://zenn.dev/da_takatsuki/articles/6e8d2de4baa76f,チーム: fridaycat20,7,0,True,200,MangaMaker 〜議事録から４コマ漫画を自動生成〜 【第2回 AI Agent Hackathon】,False,,,False
+74,Summaryme.ai,https://zenn.dev/hue/articles/zenn_ai_hackathon_202506,チーム: ガヤ民,61,20,True,200,積読おさらば。AIがあなたの「後で読む」をPodcastにする『Summaryme.ai』で、情報収集を劇的に効率化する,False,,,False
+75,Kikimimi,https://zenn.dev/riku_yanagawa/articles/193e19acd4ccc5,チーム: Kikimimi,8,0,True,200,Kikimimi — 字幕・翻訳・Q&A・マインドマップで会議を加速するAIアシスタント,False,,,False
+76,AIMeeBo,https://zenn.dev/marcosan/articles/80c0b704e88191,個人,14,0,True,200,"リアルタイムでグラフィカルな""議事ボード""を自動作成する「AI Meeting Board」を開発",True,🏅 Firebase賞,この度は、AiMeeBoの素晴らしいアプリプレゼンテーション、誠におめでとうございます！Firebaseを見事に活用し、革新的なAIアプリケーションを迅速に構築された皆様の取り組みに深く感銘を受けました。Firebase Authenticationでの迅速な認証実装、そしてRealtime Databaseを用いたシンプルかつ高度なAI機能の実現は、Firebaseの可能性を示す好例です。その低遅延性がAiMeeBoの用途に完璧にマッチしていたのは、皆様の綿密な設計の賜物だと感じます。AiMeeBoアプリも本当に素晴らしい出来栄えですね。私自身の会議でもぜひ使ってみたいです！この度の素晴らしい成果に、心よりお祝い申し上げます。,True
+77,hanaCare,https://zenn.dev/vizo/articles/ca8824dae2cf52,チーム: ViZO,5,0,True,200,hanaCare（第2回 AI Agent Hackathon with Google Cloud 参加）,False,,,False
+78,OGORI MATCH,https://zenn.dev/zenn_tata/articles/e4cbd07926dd91,チーム: YOKOKU.D,5,3,True,200,OGORI MATCH: 一杯のドリンクで、組織の「風通し」を変えるAIエージェント,False,,,False
+79,「学んだつもり」を「体験」に変える。学びのためのシミュレーションゲーム生成AIサービス -Noveroo-,https://zenn.dev/yana22/articles/fc81742dc17193,個人,18,3,True,200,「学んだつもり」を「体験」に変える。学びのためのシミュレーションゲーム生成AIサービス -Noveroo-,False,,,False
+80,everstudy,https://zenn.dev/ka_projects/articles/enken-hackathon-everstudy,チーム: シロナガスクジラ,3,0,True,200,継続して学習することを支援するWebアプリ,False,,,False
+81,ホジョキンTV エブリデイ,https://zenn.dev/hitotori/articles/2116074aeadc71,チーム: ホジョキン制作チーム,39,1,True,200,会話から「それ補助金貰えるかも」を通知するLINE Bot、ホジョキンTV エブリデイを制作しました【AI Agent Hackathon】,False,,,False
+82,旅するデジタルペット - たびぺっち,https://zenn.dev/enu_kuro/articles/2ebd7de4dbbca2,個人,10,0,True,200,旅するデジタルペット - たびぺっち【第2回 AI Agent Hackathon with Google Cloud】,False,,,False
+83,cogni-team-ai,https://zenn.dev/takanyan/articles/feeb77ea67229b,チーム: CogniTeam,3,1,True,200,CogniTeam AI,False,,,False
+84,「Me-Too!」,https://zenn.dev/rikut0417/articles/f093bbab7f1ab8,チーム: 3R,3,0,True,200,Me-Too! - AIによる趣味・出身地マッチングアプリ,False,,,False
+85,DinnerCam -余りがちな食材においしいを-,https://zenn.dev/digitalbase/articles/60e2edede370a6,チーム: ニトリホールディングス,3,0,True,200,DinnerCam -余りがちな食材においしいを-,False,,,False
+86,飲み会幹事をイイ感じにサポートする！自律型AIエージェントアプリ「イイカンジ」,https://zenn.dev/agesagesage/articles/8e22d53c062656,チーム: Room 501,6,2,True,200,飲み会をサポートする！イイ感じの幹事「イイカンジ」,False,,,False
+87,レシートシェア,https://zenn.dev/masan_eeic/articles/ff4bd2a3747521,個人,2,1,True,200,レシート共有アプリ〜レシートシェア〜,False,,,False
+88,忙しい人のための料理支援アプリ「ストレスフリーに食卓を!」,https://zenn.dev/namy3242/articles/59abc680d7b6ef,個人,4,0,True,200,忙しい人のための料理支援アプリ「ストレスフリーに食卓を!」,False,,,False
+89,Nizukuri AI,https://zenn.dev/osakanafuta/articles/8dbb2f4e020080,チーム: お魚蓋,8,0,True,200,Nizukuri AI（荷造りAI）: 旅行の準備をより効率的に,False,,,False
+90,すっきゃなー,https://zenn.dev/barbecue/articles/a874205903617f,チーム: barbecue-trio,1,0,True,200,すべての人の「食」のバリアをなくしたい！メニュー翻訳＆アレルギーチェックアプリ「すっきゃなー」🌯🍣🍜,False,,,False
+91,ブログ見直すくん,https://zenn.dev/shimo_s3/articles/0-2025-06-hackathon,個人,5,0,True,200,GeminiでAIアプリ「ブログ見直すくん」を作った,False,,,False
+92,linguasafetrip,https://zenn.dev/hamaup/articles/b34190ed8787bd,個人,4,2,True,200,LinguaSafeTrip - 言葉の壁をなくし、災害から旅を守る !,True,🏅 Firebase賞,この度は、linguasafetripの素晴らしいアプリ開発、誠におめでとうございます！皆様のチームは、日本在住外国人や観光客に不可欠なだけでなく、世界にも広がる可能性を秘めた意義深いアプリを開発されました。Firebase Cloud MessagingとAIエージェントの巧みな組み合わせは、革新的な統合として多くのデベロッパーの参考となるでしょう。その独創的な発想と実装力には感銘を受けました。linguasafetripは言語の壁を越え、人々の安全と安心に貢献する社会的価値も高く、皆様の技術力と社会貢献への強い意志が結実した素晴らしい成果です。この度の素晴らしいご功績に、心よりお祝い申し上げます。,True
+93,ラーメンに愛(AI)を！,https://zenn.dev/kuuuuu/articles/e23d94d6ae9149,チーム: 歴史に名を刻め,9,0,True,200,ラーメンに愛を！ AIと共に最高のラーメンライフを送る【第2回 AI Agent Hackathon with Google Cloud】,False,,,False
+94,Edge Presence X（EP-X）,https://zenn.dev/toki_mwc/articles/530355c3a3fa76,個人,3,0,True,200,Edge Presence X（EP-X）：エッジAIでリアルタイム存在感知を実現するMVP,False,,,False
+95,Interrogation Room,https://zenn.dev/sachikonitta/articles/e87b22c8ecb88f,個人,14,1,True,200,AI取り調べゲームを作りました,False,,,False
+96,お片付けパートナー,https://zenn.dev/shouhei12/articles/07a58d80b41d6e,チーム: チームINT,1,0,True,200,写真1枚で「どこから片付けるか」をAIが教えてくれる！家事苦手民のための「お片付けパートナー」,False,,,False
+97,暗記Pai,https://zenn.dev/ichihos1111/articles/840884a20884ed,個人,5,0,True,200,暗記科目にも、AIアプリを活用しよう【第2回 AI Agent Hackathon】,False,,,False
+98,UX-AI Insight,https://zenn.dev/yatakemi/articles/e8899551068483,個人,7,0,True,200,UX分析AI Agent「UX-AI Insight」第 2 回 AI Agent Hackathon with Google Cloud,False,,,False
+99,AI幹事くん,https://zenn.dev/motoi_asami/articles/79d7d1c7dce174,チーム: B.FFS. @AI木曜会,26,8,True,200,AI幹事くん：団体予約の「面倒」を「楽しい」に変えるAIエージェント,False,,,False
+100,会議の障壁をなくす会議ファシリテーションwebアプリ,https://zenn.dev/coffeecupjp/articles/62ebc5f19ff819,チーム: mac-sdo,3,0,True,200,会議の障壁をなくす会議ファシリテーションwebアプリ,False,,,False
+101,Astar,https://zenn.dev/hrichii/articles/ai_agent_hackthon_3,チーム: Koshiba,4,0,True,200,その場で決めて、今を動かす。オンライン会議アシスタントAstar,False,,,False
+102,IntelliQuest,https://zenn.dev/daydreamer/articles/c827e6c4c62b89,個人,3,0,True,200,IntelliQuest：AIが導く新しいコミュニケーションの形 ― より良い対話のための賢いアンケートプラットフォーム💬,False,,,False
+103,どこでもドア,https://zenn.dev/atien/articles/8ea3492a786125,チーム: 台湾マンゴー,3,0,True,200,【AI Agentハッカソン】どこでもドア：AI旅行プランニングアプリ,False,,,False
+104,Agentpedia,https://zenn.dev/y_t/articles/a8de7f6f997d63,個人,,,False,HTTP 403,AIエージェントのための「Google検索」はなぜ必要か？ADKで構築するA2A検索エンジン「Agentpedia」,False,,,False
+105,おなかプランナー,https://zenn.dev/tokuda/articles/b6c0c37a8b65b1,チーム: おなかプランナー,6,0,True,200,おなかプランナー：忙しい毎日を救う食事計画アシスタント,False,,,False
+106,A-Idea (ええ、アイデア),https://zenn.dev/oidyps/articles/0bc4b86dbe4157,チーム: A-Idea,4,0,True,200,企画書作成・評価の相棒“A-Idea(ええ、アイデア)”ーAIエージェントで、稟議をもっと気軽にー,False,,,False
+107,FlatJam,https://zenn.dev/nayus/articles/82e226cac28e53,チーム: IBUKI,31,5,True,200,創造性を育む音楽教育ツール FlatJam,True,最優秀賞,ユニークなアイデアながら実用的な製品に落とし込めていると思います。生成AIの支援により、コード進行の引き出しなど、プロと未経験者の知識のギャップを埋めるアイデアが素晴らしいです。実際のアーティスト名や曲名を参照しながらAIに相談ができるので、ユーザーが作曲する際の方向づけに迷いづらく、UXがよく考えられていると思います。AI活用以外の点でも、UIにピアノロールを採用しないことで音楽未経験者への敷居を下げる意図が伺えました。Flutterを使ったUIの作り込みもレベルが高く、評価ポイントとなりました。,True
+108,AIくらべバトル,https://zenn.dev/kotap15/articles/b1cfa682d0f550,個人,6,0,True,200,AIと一緒に楽しむ新感覚ゲーム「くらべてAI」開発記,False,,,False
+109,医療現場のパートナー,https://zenn.dev/holyholy555/articles/33a90ec33b9046,個人,5,0,True,200,AIエージェント「MedAgent-Chat」開発 臨床工学技士が挑む、医療現場の「知のパートナー」,False,,,False
+110,データ分析と可視化をするBI Chatbot,https://zenn.dev/wonyx/articles/723d12ca292646,個人,6,3,True,200,データ分析と可視化をするBI Chatbot,False,,,False
+111,requirements Checker,https://zenn.dev/ow_dev/articles/49474003bf16b2,個人,3,0,True,200,requirements.txt 診断エージェント【第2回 AI Agent Hackathon with Google Cloud】,False,,,False
+112,つながりコール,https://zenn.dev/rapirapi/articles/96082fdce354d5,チーム: ユニバック,8,0,True,200,高齢者の社会的孤立をなくすAI電話「つながりコール」,False,,,False
+113,小説コンシェルジュ,https://zenn.dev/yanshee/articles/47ff01c9460a93,個人,7,1,True,200,“気分にぴったりの一冊”を届ける ─ Geminiで小説推薦アプリを作ってみた,False,,,False
+114,Proxima 〜エンジニアの「成長したい」を支える行動支援アプリケーション〜,https://zenn.dev/takkuhiro/articles/proxima-hackathon,個人,7,0,True,200,Proxima 〜エンジニアの「成長したい」を支える行動支援アプリケーション〜,False,,,False
+115,LoveApp,https://zenn.dev/nakamurakouta/articles/d1810b4bf13b8c,チーム: Team CCH,5,2,True,200,垢抜け支援アプリ「LoveApp」,False,,,False
+116,プロジェクト横断の知識吸収と多角的思考を支援するAIアシスタントの開発,https://zenn.dev/ponpy/articles/10fc5144296446,チーム: SynapseX,3,1,True,200,プロジェクト横断の知識吸収と多角的思考を支援するAIアシスタントの開発,False,,,False
+117,Cocoro.Agent（ココロ・エージェント）,https://zenn.dev/takukuku/articles/5d146a68ee25cb,チーム: ミマモルンズ,2,1,True,200,Cocoro.Agent: AIで育児に“寄り添い”を届ける家庭用エージェントの挑戦,False,,,False
+118,RoomCare: AI,https://zenn.dev/atworks_np/articles/d6104ad63da017,個人,9,0,True,200,RoomCare AI: 住まいの「散らかり」とメンタルを同時にケアする【第二回AIハッカソン】,False,,,False
+119,Kanzy,https://zenn.dev/motsuo/articles/bfbbd82d70e796,チーム: Kanzy作るニキネキ,10,0,True,200,“今日誰かと遊びたい”を提案するAI-agent搭載の暇共有SNSを作ってみた,False,,,False
+120,Cheers Planner,https://zenn.dev/hata_hata/articles/0d07bb77b1b7b1,チーム: Cheers Planner,5,0,True,200,Cheers Planner,False,,,False
+121,Your Horror Novel,https://zenn.dev/y_gorilla/articles/ec7a5d794ec86b,個人,3,0,True,200,🎭 あなただけの恐怖を紡ぐ - AIホラー小説共創アプリ,False,,,False
+122,Bear Horizon くまの気持ちで英単語を学習,https://zenn.dev/michan74/articles/36ef1b41d64590,個人,12,0,True,200,Bear Horizon くまの気持ちで英単語を学習【第2回 AI Agent Hackathon】,False,,,False
+123,project ECHO,https://zenn.dev/kitamu_lucky/articles/0baf2045d6ced0,チーム: TEAM ECHO,5,0,True,200,従業員個人と会社の信頼を繋ぐ新しいコミュニケーションAI「ECHO」,False,,,False
+124,Importion,https://zenn.dev/bannzai/articles/3f5c9dbad0d381,個人,7,0,True,200,Webページを好きなNotionデータベースへ保存できるモバイルアプリ Importion を作成しました,False,,,False
+125,AI Agent based Analyst,https://zenn.dev/kiyono_nomura/articles/d22d8d4dfc1eeb,チーム: 株式会社KIYONO,3,0,True,200,データサイエンティスト撲滅！データ分析エージェントの開発,False,,,False
+126,チョットマッタAI,https://zenn.dev/tamyu/articles/440703aa87110f,チーム: まじんこ,2,0,True,200,チョットマッタAI ~AIが見守る安全なコミュニケーション~,False,,,False
+127,Turtle Soup,https://zenn.dev/armond/articles/15648b77bfa1d6,個人,11,0,True,200,Turtle Soup AI：英語の質問力を鍛えるウミガメのスープ【第2回 AI Agent Hackathon】,False,,,False
+128,TalkOne,https://zenn.dev/yuuu1230/articles/cd90960b481966,チーム: Stargazer,7,1,True,200,【ゲーム感覚で会話力向上 !】 TalkOne : AI ともマッチングする匿名通話アプリ,False,,,False
+129,AI栄養管理アプリDietitian,https://zenn.dev/gurekamu17/articles/b27a60bd5f2bc6,チーム: なんでもええよう,6,0,True,200,AI栄養管理アプリ Dietitian【AI Agent Hackathon with Google Cloud】,False,,,False
+130,AppointmentAI,https://zenn.dev/kiriko_tech/articles/f1da526fffd8c7,個人,4,0,True,200,AppointmentAIで実現する営業・商談DX ─ “アポ準備の自動化”による現場革新,False,,,False
+131,部活動支援エージェント AI Kommon,https://zenn.dev/delzaky/articles/8feac8cfbac845,チーム: AI Kommon,11,2,True,200,「AI時代の部活動は誰も取り残さない!」部活動支援エージェント AI Kommon,False,,,False
+132,Alco Guardian,https://zenn.dev/satory074/articles/e0044b5c0222eb,チーム: Alco Guardian,6,1,True,200,alco guardian: エージェントが協調し「飲み過ぎ」と向き合う新しい飲酒体験,False,,,False
+133,きっずフードアドバイザー,https://zenn.dev/resqnet/articles/2fe887810da9d4,チーム: ゼクノヴァで4月頃に戻りたい,4,0,True,200,幼児食の悩みにAI栄養士がこたえてくれるやつ作ってみた,False,,,False
+134,ミーム論文,https://zenn.dev/charokoukuu/articles/1f5b7a5befc228,個人,6,4,True,200,あなたの「くだらない」を、権威ある「論文」に。AI論文ジェネレータ「ミーム論文」作ったので、裏側を全てお見せします,False,,,False
+135,RhymeFlow：ラップバトルAIエージェントで即興バトルに挑む！,https://zenn.dev/kenue/articles/f29df9402b6cc3,チーム: ハック・ライム,2,0,True,200,ラップバトルAIエージェント「RhymeFlow」で即興バトルに挑む！,False,,,False
+136,KaraMateAI,https://zenn.dev/equal_nao/articles/5bc9b8beb7950a,個人,7,0,True,200,KaraMateAI：カラオケのお供にパーソナルエージェント​​​​​​​​を。【AI Agent Hackathon】,False,,,False
+137,Vibe Planning,https://zenn.dev/huku/articles/e1addc5cf3837c,チーム: Vibe Coders,28,8,True,200,Vibe Planning,True,3位,本プロジェクトは、生成AIモデルの活用だけでなく、Web検索・ルート検索・RAGなど多くの技術手法が統合されており、仕様と実装の厚みは随一であったと思います。また、旅行プランニングをコンセプトにしたプロジェクトは非常に多かったですが、その中でもマッチングの精度評価やパフォーマンスの工夫と効果が計測されており、定量指標にもとづいて改善を重ねたことが伺えた点も高く評価しました。総合的に、単なるAIモデルのAPIラッパーに留まらない、AIエージェントと呼ぶにふさわしい製品だと感じました。,True
+138,GenieUs,https://zenn.dev/tnoce/articles/bf4531c0ad8e32,個人,6,0,True,200,【第2回AI Agent Hackathon】Google Cloudで創る、子育ての“見えない頑張り”に光をあてるマルチエージェント,False,,,False
+139,マッチ売りの電卓,https://zenn.dev/rabbitprogram/articles/6f27a2ea2d0755,個人,4,0,True,200,マッチ売りの電卓【 お金の感覚を見える化するアプリ 】,False,,,False
+140,AI英単語学習アプリ「Ai単 ~ Eitan ~」,https://zenn.dev/yoh_siba/articles/ff8ec3719be335,チーム: ゲコゲコ戦隊サンケンジャー,7,0,True,200,【第2回 AI Agent Hackathon】AI英単語学習アプリ「Ai単 ~ Eitan ~」で変わる語学学習体験,False,,,False
+141,Elevia,https://zenn.dev/mrmtsntr/articles/d700c483bfeed2,個人,,,False,HTTP 403,ムーンショットな OKR 達成を支援するサービス「Elevia」,False,,,False
+142,シフト作成AIエージェント「Shift Agent」,https://zenn.dev/jacksen/articles/47e7c8e451669a,チーム: 新木場PJ,6,2,True,200,シフト作成AIエージェント「Shift Agent」📅,False,,,False
+143,空間AIエージェント わらびくん,https://zenn.dev/mouri45/articles/0bccdc2be26513,個人,9,1,True,200,【AI Agent Hackathon】Apple Vison Proアプリ 空間AIエージェント わらびくんを作ってみた,False,,,False
+144,Chat-MBTI,https://zenn.dev/oh80/articles/a2e7d01225105d,チーム: M-two,6,0,True,200,Chat-MBTI -チャットボットとの会話による性格診断ツール- (Agent Hackathon with Google Cloud),False,,,False
+145,Smart Twin Room,https://zenn.dev/yumabo/articles/21cf9234d07328,個人,11,3,True,200,Smart Twin Room ～誰もがAIデジタルツインを持つ世の中へ～,True,🏅 Tech Deep Dive賞,ECサイトとデジタルツインを組み合わせ、AIエージェントを活用し購買体験を向上させる先進的なアイデアが高く評価されました。「家具を揃える」という具体的なミッションに対し、単なる商品検索に留まらない包括的な購買体験を設計し、そこにAIが自然に溶け込んでいる点が特に素晴らしいです。Three.jsによるUIやクラウド技術を駆使し、このユニークな着眼点を高いレベルで実現する技術力も見事でした。ECへの本格展開が実現すれば、最適な消費体験から物流にまで好影響を与えうる、技術で未来を切り開くAIの大きな可能性を感じさせるプロジェクトです。,True
+146,UltraSoulMatch.ai,https://zenn.dev/teba_eleven/articles/5dbaabf3047e25,チーム: Tru-S3,14,0,True,200,あなたを調べ上げて最高のエンジニア仲間を見つける！：UltraSoulMatch.ai,False,,,False
+147,Realingo,https://zenn.dev/naoto000/articles/d92ffc77b6761a,個人,,,False,HTTP 403,【Realingo】あなたや友達のストーリーを教材に！SNS型AI語学アプリ,False,,,False
+148,PRNews,https://zenn.dev/k_r_programing/articles/77cb5f2fd062dc,チーム: 神山ブラザーズ,2,0,True,200,PRNews,False,,,False
+149,おすすめ居住エリア診断アプリ,https://zenn.dev/shoma_inv/articles/b09ee383350bc2,チーム: チーム不動産Lovers,2,0,True,200,【おすすめ居住エリア診断アプリ】都内の住む場所をAIエージェントが提案,False,,,False
+150,Sticker Atelier,https://zenn.dev/zaic_master/articles/a691cfa42bf905,個人,2,0,True,200,AIスタンプ共同制作アプリ「Sticker Atelier」で、友人との思い出を形に。,False,,,False
+151,おまかせダイアリー,https://zenn.dev/kennr/articles/e757723aaf09ea,チーム: チームけんたく,9,0,True,200,【AI Agentハッカソン】GeminiとADKで創る、親子の物語自動生成AI「おまかせダイアリー」,False,,,False
+152,WhatWeTalked,https://zenn.dev/gdgoc_osaka/articles/ae5b89e170b2f3,チーム: GDG on Campus Osaka,9,1,True,200,「記憶に頼らない接客」でリピーター獲得を支えるAI接客支援システム WhatWeTalked,False,,,False
+153,学校だよりAI,https://zenn.dev/gakkoudayoriai/articles/d7c61ec828913d,チーム: わきAIAI@AI木曜会,81,25,True,200,【学校だよりAI】なくならない “紙” 文化｡それなら「今」を照らそう｡AIと｡,True,2位,データを用いた定量的な議論をベースに課題の提起がなされており、この製品の必要性が伝わってきました。教育現場の具体的な業務に着目し、用途を絞り込むことで高い実用性が実現されています。仮説を立てて開発するだけでなく、実際に教師の方に使ってもらってフィードバックを得ている点も非常に良かったです。Flutterアプリの作り込みも評価しました。,True
+154,QA3,https://zenn.dev/and_dot/articles/7e054d7769835d,チーム: QA3開発チーム,,,False,HTTP 403,,False,,,False
+155,あなたのインフルエンサー,https://zenn.dev/karamiso/articles/d77beddb96aab6,個人,3,0,True,200,「あなたのインフルエンサー」 自分だけのインフルエンサーをAIで作ろう！,False,,,False
+156,珈琲焙煎ロガー：Artizen,https://zenn.dev/k223tech/articles/artizen-logger-ai-hackathon-vol2,個人,1,0,True,200,珈琲焙煎ロガー：Artizen - バイブコーディングで開発！,False,,,False
+157,Location Insights AI住環境分析システム,https://zenn.dev/tenyyprn/articles/8f8245584dcbb2,個人,4,0,True,200,"""Google Cloud AIを活用した住環境分析システム 「Location Insights」の開発"" 🏠",False,,,False
+158,AI人狼オンライン,https://zenn.dev/hamutaro_kun/articles/9413e193fd812e,個人,7,0,True,200,AI人狼オンライン：次世代マルチプレイヤーゲーム,False,,,False

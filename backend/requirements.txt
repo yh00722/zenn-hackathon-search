@@ -1,0 +1,28 @@
+# Backend Dependencies
+
+# Core
+python-dotenv>=1.0.0
+pydantic>=2.0.0
+pydantic-settings>=2.0.0
+
+# Database
+sqlalchemy>=2.0.0
+
+# API
+fastapi>=0.109.0
+uvicorn[standard]>=0.27.0
+
+# Azure OpenAI
+openai>=1.12.0
+langchain>=0.1.0
+langchain-openai>=0.0.5
+langchain-chroma>=0.1.0
+
+# Vector Store
+chromadb>=0.4.22
+
+# HTTP Client
+httpx>=0.26.0
+
+# Data Processing
+pandas>=2.0.0
