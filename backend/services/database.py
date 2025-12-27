@@ -159,17 +159,25 @@ class Database:
             return [dict(row) for row in rows]
     
     def get_winners(self, edition: int = None) -> list[dict]:
-        """受賞プロジェクトを取得"""
+        """受賞プロジェクトを取得（content_raw は除外）"""
+        # 必要なフィールドのみ選択（content_raw を除外）
+        select_cols = """
+            id, hackathon_id, no, project_name, url,
+            author_name, author_type,
+            description, likes, bookmarks, tags,
+            is_winner, award_name, award_comment, is_final_pitch,
+            content_summary
+        """
         with self.get_connection() as conn:
             if edition:
-                rows = conn.execute("""
-                    SELECT * FROM projects 
+                rows = conn.execute(f"""
+                    SELECT {select_cols} FROM projects 
                     WHERE is_winner = 1 AND hackathon_id = ?
                     ORDER BY likes DESC
                 """, (edition,)).fetchall()
             else:
-                rows = conn.execute("""
-                    SELECT * FROM projects 
+                rows = conn.execute(f"""
+                    SELECT {select_cols} FROM projects 
                     WHERE is_winner = 1
                     ORDER BY hackathon_id, likes DESC
                 """).fetchall()

@@ -124,6 +124,7 @@ export async function chat(message: string): Promise<ChatResponse> {
 }
 
 export interface StreamCallbacks {
+    signal?: AbortSignal;
     onMetadata?: (metadata: { strategy: string; sources: ChatResponse['sources']; explanation?: string }) => void;
     onToken?: (token: string) => void;
     onDone?: () => void;
@@ -135,6 +136,7 @@ export async function chatStream(message: string, callbacks: StreamCallbacks): P
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ message }),
+        signal: callbacks.signal,
     });
 
     if (!res.ok) {
@@ -149,6 +151,8 @@ export async function chatStream(message: string, callbacks: StreamCallbacks): P
     const decoder = new TextDecoder();
     let buffer = '';
 
+    let currentEventType = '';
+
     try {
         while (true) {
             const { done, value } = await reader.read();
@@ -160,7 +164,7 @@ export async function chatStream(message: string, callbacks: StreamCallbacks): P
 
             for (const line of lines) {
                 if (line.startsWith('event:')) {
-                    const eventType = line.slice(6).trim();
+                    currentEventType = line.slice(6).trim();
                     continue;
                 }
                 if (line.startsWith('data:')) {
@@ -170,19 +174,36 @@ export async function chatStream(message: string, callbacks: StreamCallbacks): P
                     try {
                         const data = JSON.parse(dataStr);
 
-                        // Determine event type from the data structure
-                        if (data.strategy !== undefined) {
-                            callbacks.onMetadata?.(data);
-                        } else if (data.content !== undefined) {
-                            callbacks.onToken?.(data.content);
-                        } else if (data.status === 'complete') {
-                            callbacks.onDone?.();
-                        } else if (data.message !== undefined) {
-                            callbacks.onError?.(data.message);
+                        // Use event type for accurate dispatch
+                        switch (currentEventType) {
+                            case 'metadata':
+                                callbacks.onMetadata?.(data);
+                                break;
+                            case 'token':
+                                callbacks.onToken?.(data.content);
+                                break;
+                            case 'done':
+                                callbacks.onDone?.();
+                                break;
+                            case 'error':
+                                callbacks.onError?.(data.message);
+                                break;
+                            default:
+                                // Fallback: infer from data structure for backward compatibility
+                                if (data.strategy !== undefined) {
+                                    callbacks.onMetadata?.(data);
+                                } else if (data.content !== undefined) {
+                                    callbacks.onToken?.(data.content);
+                                } else if (data.status === 'complete') {
+                                    callbacks.onDone?.();
+                                } else if (data.message !== undefined) {
+                                    callbacks.onError?.(data.message);
+                                }
                         }
                     } catch {
                         // Ignore parse errors for incomplete data
                     }
+                    currentEventType = ''; // Reset after processing
                 }
             }
         }

@@ -28,9 +28,34 @@ export function ChatInterface() {
     const [messages, setMessages] = useState<Message[]>([]);
     const [input, setInput] = useState("");
     const [isLoading, setIsLoading] = useState(false);
+    const [isComposing, setIsComposing] = useState(false);  // IME 入力中フラグ
     const [abortController, setAbortController] = useState<AbortController | null>(null);
     const messagesEndRef = useRef<HTMLDivElement>(null);
     const inputRef = useRef<HTMLTextAreaElement>(null);
+
+    // マウント時に sessionStorage から会話履歴を復元
+    useEffect(() => {
+        const saved = sessionStorage.getItem('chat_messages');
+        if (saved) {
+            try {
+                const parsed = JSON.parse(saved);
+                if (Array.isArray(parsed) && parsed.length > 0) {
+                    setMessages(parsed);
+                }
+            } catch {
+                // パースエラーは無視
+            }
+        }
+    }, []);
+
+    // 会話履歴を sessionStorage に保存（ストリーミング中のメッセージは除外）
+    useEffect(() => {
+        // 完了したメッセージのみ保存
+        const completedMessages = messages.filter(m => !m.isStreaming);
+        if (completedMessages.length > 0) {
+            sessionStorage.setItem('chat_messages', JSON.stringify(completedMessages));
+        }
+    }, [messages]);
 
     useEffect(() => {
         messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
@@ -43,6 +68,12 @@ export function ChatInterface() {
     const handleStop = useCallback(() => {
         abortController?.abort();
         setIsLoading(false);
+        // ストリーミング中のメッセージを更新
+        setMessages((prev) =>
+            prev.map((m) =>
+                m.isStreaming ? { ...m, isStreaming: false, content: m.content || "中断されました" } : m
+            )
+        );
     }, [abortController]);
 
     const handleSend = async (message?: string) => {
@@ -69,6 +100,7 @@ export function ChatInterface() {
             let strategy = "";
 
             await chatStream(text, {
+                signal: controller.signal,
                 onMetadata: (metadata) => {
                     sources = metadata.sources;
                     strategy = metadata.strategy;
@@ -120,10 +152,22 @@ export function ChatInterface() {
     };
 
     const handleKeyDown = (e: React.KeyboardEvent) => {
+        // IME 入力中（日本語等）は Enter を無視
+        // keyCode 229 は IME 処理中を示す
+        if (e.keyCode === 229) return;
+        if (isComposing || e.nativeEvent.isComposing) return;
+
         if (e.key === "Enter" && !e.shiftKey) {
             e.preventDefault();
             handleSend();
         }
+    };
+
+    const handleCompositionStart = () => setIsComposing(true);
+    const handleCompositionEnd = () => {
+        // 少し遅延させてから isComposing を false にする
+        // これにより、Enter キーが送信をトリガーするのを防ぐ
+        setTimeout(() => setIsComposing(false), 100);
     };
 
     return (
@@ -211,6 +255,8 @@ export function ChatInterface() {
                                 value={input}
                                 onChange={(e) => setInput(e.target.value)}
                                 onKeyDown={handleKeyDown}
+                                onCompositionStart={handleCompositionStart}
+                                onCompositionEnd={handleCompositionEnd}
                                 placeholder="Ask anything..."
                                 disabled={isLoading}
                                 minRows={1}

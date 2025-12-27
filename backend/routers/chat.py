@@ -38,31 +38,30 @@ class ChatResponse(BaseModel):
 @router.post("", response_model=ChatResponse)
 async def chat(request: ChatRequest):
     """
-    ハッカソン作品についてインテリジェントRAGシステムと会話する。
+    ハッカソン作品についてAgentic RAGシステムと会話する。
     
-    システムは最適な検索戦略を自動選択：
-    - **text2sql**: ランキング、統計、件数の取得
-    - **filtered_rag**: 受賞作品、特定回の質問
-    - **semantic_rag**: オープンエンドのトピック探索
-    - **hybrid**: 複数戦略の組み合わせ
+    LangGraph ベースのマルチターン検索：
+    - LLMが最適なツールを自動選択
+    - 複数回のツール呼び出しで情報を収集
+    - 統合された回答を生成
     
     日本語での質問を推奨、例：
     - 受賞作品の共通点は何ですか？
     - いいね数トップ5のプロジェクトは？
-    - 第3回の受賞コメントを教えて
-    - Flutterを使った作品を教えて
+    - 第3回でRAGを使った作品の詳細を教えて
     """
     try:
         if request.use_hybrid:
-            from services.hybrid_executor import get_hybrid_executor
-            executor = get_hybrid_executor()
-            result = executor.query(request.message)
+            # Agentic RAG を使用（マルチターン）
+            from services.agentic_rag import get_agentic_rag
+            agent = get_agentic_rag(max_iterations=5)
+            result = agent.query(request.message)
             
             return ChatResponse(
                 answer=result["answer"],
-                sources=result.get("sources", []),
-                strategy=result.get("strategy"),
-                explanation=result.get("explanation")
+                sources=[],  # Agentic RAG は sources を別途返さない
+                strategy="agentic_rag",
+                explanation=f"iterations={result['iterations']}, tool_calls={result['tool_calls']}"
             )
         else:
             # シンプルRAGへフォールバック
@@ -76,13 +75,20 @@ async def chat(request: ChatRequest):
                 strategy="semantic_rag"
             )
     except ValueError as e:
+        error_msg = str(e)
+        if "AZURE_OPENAI" in error_msg:
+            return ChatResponse(
+                answer="⚠️ Azure OpenAI が設定されていません。.envファイルに認証情報を設定してください。",
+                sources=[],
+                strategy="config_error"
+            )
         return ChatResponse(
-            answer=f"エラー: {str(e)}. Azure OpenAIの設定を確認してください。",
+            answer=f"設定エラー: {error_msg}",
             sources=[]
         )
     except Exception as e:
         return ChatResponse(
-            answer=f"申し訳ありません。エラーが発生しました: {str(e)}",
+            answer="申し訳ありません。内部エラーが発生しました。しばらく後に再試行してください。",
             sources=[]
         )
 
@@ -111,10 +117,10 @@ async def chat_stream(request: ChatRequest, req: Request):
     """
     async def event_generator():
         try:
-            from services.hybrid_executor import get_hybrid_executor
-            executor = get_hybrid_executor()
+            from services.agentic_rag import get_agentic_rag
+            agent = get_agentic_rag(max_iterations=3)
             
-            for event_type, data in executor.query_stream(request.message):
+            for event_type, data in agent.query_stream(request.message):
                 # クライアント切断チェック
                 if await req.is_disconnected():
                     break
@@ -210,17 +216,7 @@ async def analyze_route(q: str = Query(..., description="分析対象の質問")
         from services.query_router import QueryRouter
         router_instance = QueryRouter()
         
-        # まずクイックルートを試行
-        quick_plan = router_instance.quick_route(q)
-        if quick_plan:
-            return {
-                "method": "quick_route",
-                "strategy": quick_plan.strategy,
-                "filters": quick_plan.filters,
-                "rewritten_query": quick_plan.rewritten_query
-            }
-        
-        # フルLLMルート
+        # LLMルート
         plan = router_instance.route(q)
         return {
             "method": "llm_route",

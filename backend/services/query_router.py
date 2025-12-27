@@ -10,8 +10,8 @@ from dataclasses import dataclass
 from typing import Optional
 from enum import Enum
 
-from langchain_openai import AzureChatOpenAI
 from .config import settings
+from .llm_factory import get_chat_llm, check_llm_available
 
 
 class QueryStrategy(Enum):
@@ -120,16 +120,12 @@ class QueryRouter:
     多様なユーザー表現と自然言語の変化に対応。
     """
     
-    def __init__(self, llm: AzureChatOpenAI = None):
+    def __init__(self, llm = None):
         if llm is None:
-            if not settings.AZURE_OPENAI_API_KEY:
-                raise ValueError("AZURE_OPENAI_API_KEYが設定されていません")
-            self.llm = AzureChatOpenAI(
-                azure_deployment=settings.AZURE_CHAT_DEPLOYMENT,
-                openai_api_key=settings.AZURE_OPENAI_API_KEY,
-                azure_endpoint=settings.AZURE_OPENAI_ENDPOINT,
-                api_version=settings.AZURE_OPENAI_API_VERSION
-            )
+            if not check_llm_available():
+                raise ValueError("OpenAI APIキーが設定されていません")
+            # LLMの初期化（Azure/OpenAI 自動選択）
+            self.llm = get_chat_llm()
         else:
             self.llm = llm
     

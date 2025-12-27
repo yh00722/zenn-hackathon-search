@@ -115,9 +115,10 @@ def import_csv(csv_path: Path, edition: int, load_articles: bool = True) -> dict
             conn.execute("""
                 INSERT INTO projects (
                     hackathon_id, no, project_name, url, author_type, author_name,
-                    description, content_raw, likes, bookmarks, accessible, http_status,
-                    is_winner, award_name, award_comment, is_final_pitch, article_slug
-                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                    description, content_raw, content_summary, likes, bookmarks, accessible, http_status,
+                    is_winner, award_name, award_comment, is_final_pitch, article_slug,
+                    tech_stacks, tags
+                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
             """, (
                 edition,
                 safe_int(row.get("No")),
@@ -127,6 +128,7 @@ def import_csv(csv_path: Path, edition: int, load_articles: bool = True) -> dict
                 author_name,
                 row.get("Description", ""),
                 content_raw,
+                row.get("ContentSummary") or None,  # 新規: 要約
                 safe_int(row.get("Likes")),
                 safe_int(row.get("Bookmarks")),
                 1 if safe_bool(row.get("Accessible", True)) else 0,
@@ -135,7 +137,9 @@ def import_csv(csv_path: Path, edition: int, load_articles: bool = True) -> dict
                 row.get("AwardName") or None,
                 row.get("AwardComment") or None,
                 1 if safe_bool(row.get("IsFinalPitch", False)) else 0,
-                article_slug
+                article_slug,
+                row.get("TechStacks") or None,  # 新規: 技術スタック
+                row.get("Tags") or None,  # 新規: タグ
             ))
             stats["imported"] += 1
         

@@ -7,12 +7,12 @@ import json
 from typing import Optional
 from dataclasses import dataclass
 
-from langchain_openai import AzureChatOpenAI, AzureOpenAIEmbeddings
 from langchain_chroma import Chroma
 from langchain_core.prompts import PromptTemplate
 
 from .config import settings
 from .database import db
+from .llm_factory import get_chat_llm, get_embeddings, check_llm_available
 from .query_router import QueryRouter, QueryPlan, QueryStrategy
 from .text2sql import Text2SQLGenerator, execute_template
 
@@ -50,24 +50,14 @@ class HybridQueryExecutor:
     def __init__(self):
         settings.ensure_dirs()
         
-        if not settings.AZURE_OPENAI_API_KEY:
-            raise ValueError("AZURE_OPENAI_API_KEYが設定されていません")
+        if not check_llm_available():
+            raise ValueError("OpenAI APIキーが設定されていません")
         
-        # LLMの初期化
-        self.llm = AzureChatOpenAI(
-            azure_deployment=settings.AZURE_CHAT_DEPLOYMENT,
-            openai_api_key=settings.AZURE_OPENAI_API_KEY,
-            azure_endpoint=settings.AZURE_OPENAI_ENDPOINT,
-            api_version=settings.AZURE_OPENAI_API_VERSION
-        )
+        # LLMの初期化（Azure/OpenAI 自動選択）
+        self.llm = get_chat_llm()
         
-        # 埋め込みの初期化
-        self.embeddings = AzureOpenAIEmbeddings(
-            azure_deployment=settings.AZURE_EMBEDDING_DEPLOYMENT,
-            openai_api_key=settings.AZURE_OPENAI_API_KEY,
-            azure_endpoint=settings.AZURE_OPENAI_ENDPOINT,
-            api_version=settings.AZURE_OPENAI_API_VERSION
-        )
+        # 埋め込みの初期化（Azure/OpenAI 自動選択）
+        self.embeddings = get_embeddings()
         
         # ベクトルストアの初期化
         self.vectorstore = Chroma(
@@ -221,12 +211,14 @@ class HybridQueryExecutor:
         if not keywords:
             return self._execute_semantic_rag(question, plan)
         
-        # LIKEクエリを構築
-        conditions = []
+        # パラメータ化クエリを構築
+        placeholders = []
+        params = []
         for kw in keywords[:3]:  # 最大3キーワード
-            conditions.append(f"(project_name LIKE '%{kw}%' OR description LIKE '%{kw}%')")
+            placeholders.append("(project_name LIKE ? OR description LIKE ?)")
+            params.extend([f"%{kw}%", f"%{kw}%"])
         
-        where_clause = " OR ".join(conditions)
+        where_clause = " OR ".join(placeholders)
         sql = f"""
             SELECT id, project_name, url, author_name, description, 
                    likes, is_winner, hackathon_id
@@ -238,7 +230,7 @@ class HybridQueryExecutor:
         
         try:
             with db.get_connection() as conn:
-                rows = conn.execute(sql).fetchall()
+                rows = conn.execute(sql, tuple(params)).fetchall()
                 results = [dict(row) for row in rows]
                 
                 if not results:

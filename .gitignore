@@ -35,6 +35,7 @@ out/
 *.sqlite
 *.sqlite3
 backend/db/chroma/
+backend/db/chroma_summary/
 
 # Logs
 *.log
@@ -54,4 +55,16 @@ coverage/
 docs/
 data/codefiles/
 
+zenn_article.md
+
+# Test code 
 backend/tests/
+frontend/src/__tests__/
+frontend/src/test/
+frontend/e2e/
+frontend/vitest.config.ts
+frontend/playwright.config.ts
+
+# Test reports (generated files)
+playwright-report/
+test-results/
