@@ -23,6 +23,9 @@
 
 <div align="center">
 <img src="imgs/chat.png" width="500">
+
+[デモ動画を見る](https://x.com/Alexand66834533/status/2004795777307349321?s=20)
+
 </div>
 
 **こんな質問に答えられます：**
